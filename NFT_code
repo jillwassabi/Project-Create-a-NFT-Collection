@@ -23,7 +23,7 @@ function mintNFT (_name, _hairStyle, _shirtType, _bling) {
 }
 
 function listNFTs () {
-  for(let i = 0; i < NFYs.length, i++) {
+  for(let i = 0; i < NFTs.length; i++) {
     console.log("\nName: " + NFTS[i].name);
     console.log("Hairstyle: " + NFTS[i].hairStyle);
     console.log("Shirt type: " + NFTS[i].shirtType);
