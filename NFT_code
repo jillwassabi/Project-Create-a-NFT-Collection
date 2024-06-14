@@ -24,10 +24,10 @@ function mintNFT (_name, _hairStyle, _shirtType, _bling) {
 
 function listNFTs () {
   for(let i = 0; i < NFTs.length; i++) {
-    console.log("\nName: " + NFTS[i].name);
-    console.log("Hairstyle: " + NFTS[i].hairStyle);
-    console.log("Shirt type: " + NFTS[i].shirtType);
-    console.log("bling: " + NFTS[i].bling);
+    console.log("\nName: " + NFTs[i].name);
+    console.log("Hairstyle: " + NFTs[i].hairStyle);
+    console.log("Shirt type: " + NFTs[i].shirtType);
+    console.log("bling: " + NFTs[i].bling);
   }
 }
 
